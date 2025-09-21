@@ -1,7 +1,7 @@
 const blogData = {
   posts: [
     {
-      href: "emulator-tweaks",
+      href: "emulator-tweaks.html",
       icon: "game-controller.png",
       alt: "Game controller icon",
       title: "Emulator Tweaks & Game Mods",
@@ -61,5 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("light-mode");
   });
 });
+
 
 
