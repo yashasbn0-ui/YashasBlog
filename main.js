@@ -1,7 +1,7 @@
 const blogData = {
   posts: [
     {
-      href: "emulator-tweaks/",
+      href: "emulator-tweaks",
       icon: "game-controller.png",
       alt: "Game controller icon",
       title: "Emulator Tweaks & Game Mods",
@@ -9,7 +9,7 @@ const blogData = {
       class: "border-blue"
     },
     {
-      href: "web-dev-tips/",
+      href: "web-dev-tips",
       icon: "light-bulb.png",
       alt: "Light bulb icon",
       title: "Web Dev Tips",
@@ -17,7 +17,7 @@ const blogData = {
       class: "border-green"
     },
     {
-      href: "modding-bussid/",
+      href: "modding-bussid",
       icon: "bussid.jpg",
       alt: "BUSSID modding illustration",
       title: "Modding BUSSID on PC",
@@ -61,4 +61,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("light-mode");
   });
 });
+
 
